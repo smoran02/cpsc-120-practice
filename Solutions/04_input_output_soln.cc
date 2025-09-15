@@ -7,7 +7,7 @@
 
 int main() {
 
-	std::string first_name, last_name;
+	std::string first_name{}, last_name{};
 
 	std::cout << "Enter your first name: ";
 	std::cin >> first_name;

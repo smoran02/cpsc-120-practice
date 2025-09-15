@@ -7,7 +7,8 @@
 int main() {
 
 	int radius{};
-	double k_pi{3.14};
+	// Use a constant variable prefixed with k to store PI
+	const double k_pi{3.14};
 
 	std::cout << "Enter the radius: ";
 	std::cin >> radius;
